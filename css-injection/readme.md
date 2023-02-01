@@ -11,7 +11,7 @@ app = Flask(__name__)
 @app.route("/home", defaults={"path":""})
 @app.route("/home/<path:path>")
 def catch_all(path):
-    return "<html><body>your path "+path+"<link href='style.css' rel='stylesheet' type='text/css'/> </body>
+    return "<html><body>RPO attack "+path+"<link href='style.css' rel='stylesheet' type='text/css'/> </body>
 
 app.run()
 
@@ -19,6 +19,5 @@ app.run()
  
   - for example you add this payload : `%0A{}*{colored:red;}///`
   
-  ```
-  http://127.0.0.1:5000/home/%0A{}*{colored:red;}///
-  ```
+ ![This is an image](pic.png)
+
