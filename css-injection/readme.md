@@ -19,4 +19,6 @@ app.run()
  
   - for example you add this payload : `%0A{}*{colored:red;}///`
   
-  ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+  ```
+  http://127.0.0.1:5000/home/%0A{}*{colored:red;}///
+  ```
