@@ -1,7 +1,7 @@
 ## OSRF (On Site Request Forgery)
  
  
- ```
+ ```python
 from flask import Flask, request, redirect
 
 app = Flask(__name__)
