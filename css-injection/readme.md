@@ -2,7 +2,7 @@
  
  While most firewalls and sophisticated scanning tools are busy searching for malicious scripts, SQL statements, and code they tend to overlook the <style> tag. One of the common uses of CSS in web pages is to ensure beauty with uniformity which can be an informational aspect on a web page. Suppose a developer wants to use various internal and external links in his web pages and wants to show a difference between the links such that the user knows which link will throw them out the website and which one will open within the website he may use code like this in his style sheet,
   
-  ```
+  ```python
 from flask import Flask, request
 
 app = Flask(__name__)
