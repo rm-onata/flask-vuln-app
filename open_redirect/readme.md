@@ -4,7 +4,7 @@
  - This vuln can be exploited by attackers to redirect users to malicious websites, phishing sites, or other malicious content
   
  
- ```
+ ```python
 from flask import Flask, request, redirect
 
 app = Flask(__name__)
