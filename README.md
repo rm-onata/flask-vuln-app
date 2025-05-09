@@ -12,21 +12,23 @@ Welcome to the **Web Vulnerabilities with Flask** repository! This project showc
 
 Web applications are often targets for various types of attacks. Understanding these vulnerabilities is crucial for building secure applications. This repository provides practical examples of common web vulnerabilities, including:
 
+- CSS Injection
+- Cross-Site Request Forgery (OSRF)
+- Open Redirect
+- Server-Side Template Injection (SSTI)
 - SQL Injection
-- Cross-Site Scripting (XSS)
-- Cross-Site Request Forgery (CSRF)
-- Insecure Direct Object References (IDOR)
-- Security Misconfigurations
+
 
 Each example is implemented using Flask, a lightweight WSGI web application framework in Python.
 
 ## Vulnerabilities Covered
 
-1. **SQL Injection**: Demonstrates how attackers can manipulate SQL queries to gain unauthorized access to data.
-2. **Cross-Site Scripting (XSS)**: Shows how malicious scripts can be injected into web pages viewed by other users.
-3. **Cross-Site Request Forgery (CSRF)**: Illustrates how unauthorized commands can be transmitted from a user that the web application trusts.
-4. **Insecure Direct Object References (IDOR)**: Explains how attackers can access resources by modifying the URL.
-5. **Security Misconfigurations**: Highlights common misconfigurations that can lead to vulnerabilities.
+1. **CSS Injection**: Demonstrates how attackers can inject malicious CSS into a web application, potentially altering the appearance and behavior of the site.
+2. **Cross-Site Request Forgery (OSRF)**: Illustrates how unauthorized commands can be transmitted from a user that the web application trusts, leading to unintended actions.
+3. **Open Redirect**: Shows how attackers can manipulate URLs to redirect users to malicious sites, potentially leading to phishing attacks.
+4. **Server-Side Template Injection (SSTI)**: Explains how attackers can inject malicious code into server-side templates, allowing them to execute arbitrary code on the server.
+5. **SQL Injection**: Demonstrates how attackers can manipulate SQL queries to gain unauthorized access to data.
+
 
 ## Getting Started
 
