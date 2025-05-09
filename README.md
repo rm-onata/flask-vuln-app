@@ -7,9 +7,6 @@ Welcome to the **Web Vulnerabilities with Flask** repository! This project showc
 - [Introduction](#introduction)
 - [Vulnerabilities Covered](#vulnerabilities-covered)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -37,5 +34,5 @@ To get a local copy of this project up and running, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/web-vulnerabilities-flask.git
+   git clone https://github.com/rm-onata/flask-vuln-app
    cd web-vulnerabilities-flask
